@@ -109,7 +109,7 @@ class MainWindow(ttk.Frame):
         desig_btn.pack(side=tk.LEFT)
         tr_btn = ttk.Button(title_frame, image=self.img_list36['labors'], command=self.transaction_window)
         tr_btn.pack(side=tk.LEFT)
-        app_lbl = tk.Label(title_frame, text=f'Manpower\nManagement {__version__}', font='Times 20 bold italic', fg='#FF2100')
+        app_lbl = tk.Label(title_frame, text=f'Manpower\nManagement {__version__}', font='Times 19 bold italic', fg='#FF2100')
         app_lbl.pack(side=tk.RIGHT)
 
         # All widgets for search_frame
